@@ -2,7 +2,7 @@
 
 import { register } from 'register-service-worker'
 
-register(`${process.env.BASE_URL}service-worker.js`, {
+register(`https://frabjous-scone-0b1b99.netlify.app/service-worker.js`, {
   ready () {
     console.log(
       'App is being served from cache by a service worker.\n' +
